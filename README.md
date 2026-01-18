@@ -1,2 +1,6 @@
-# ai-prompts-template-extension
-Chrome Extension that makes it convenient to store your AI Prompt Templates for quick access.
+# AI Prompt Template Chrome Extension
+**Our Chrome Extension that allows us to save our AI Prompt Templates**
+
+Screenshot of the Prompt Template Extension window:
+
+![alt text](./Prompt_Template_Extension_In_Action.png)

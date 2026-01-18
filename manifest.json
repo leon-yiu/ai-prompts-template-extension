@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt Template Vault",
+  "version": "0.2.0",
+  "description": "Save and reuse AI prompt templates from a side panel.",
+  "minimum_chrome_version": "114",
+  "permissions": ["storage", "sidePanel"],
+  "action": {
+    "default_title": "Prompt Vault"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}

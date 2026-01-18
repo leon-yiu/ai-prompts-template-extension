@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prompt Vault</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">Prompt Vault</div>
+      <div class="actions">
+        <button id="newBtn" class="btn">New</button>
+        <button id="exportBtn" class="btn">Export</button>
+        <label class="btn fileLabel">
+          Import
+          <input id="importInput" type="file" accept="application/json" />
+        </label>
+      </div>
+    </header>
+
+    <section class="search">
+      <input id="searchInput" type="text" placeholder="Search title, tags, or body…" />
+    </section>
+
+    <main class="main">
+      <aside class="listPane">
+        <div id="list" class="list"></div>
+      </aside>
+
+      <section class="editorPane">
+        <div class="editorHeader">
+          <input id="titleInput" type="text" placeholder="Template title" />
+          <input id="tagsInput" type="text" placeholder="Tags (comma-separated)" />
+        </div>
+
+        <textarea id="bodyInput" placeholder="Write your prompt template here…"></textarea>
+
+        <div class="editorActions">
+          <button id="copyBtn" class="btn primary">Copy</button>
+          <button id="saveBtn" class="btn primary">Save</button>
+          <button id="deleteBtn" class="btn danger">Delete</button>
+        </div>
+
+        <div id="status" class="status" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
