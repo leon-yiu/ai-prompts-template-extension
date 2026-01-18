@@ -3,4 +3,5 @@
 
 Screenshot of the Prompt Template Extension window:
 
-![alt text](./Prompt_Template_Extension_In_Action.png)
+![alt text](./Prompt_Template_Extension.png)
+
